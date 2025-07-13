@@ -1,0 +1,114 @@
+/* Reset & base styles */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: 'Outfit', sans-serif;
+    background-color:#F3E5D8;
+    color: #333;
+    line-height: 1;
+  }
+  
+  /* Layout container */
+  .container {
+    max-width: 700px;
+    margin: 2rem auto;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    background-color:white ;
+    border-radius: 1rem;
+    gap: 2rem;
+  }
+  
+  /* Image */
+  .image-container img {
+    width: 100%;
+    
+    border-radius: 10px;
+    object-fit: cover;
+  }
+  h1,h2{
+    font-family: 'Young Serif',serif;
+  }
+  
+  /* Headings */
+  h1 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  h2 {
+    font-size:1rem;
+    margin-bottom: 0.5rem;
+    color: #844d03;
+  }
+  
+  /* Paragraph */
+  .description {
+    font-size: 0.5rem;
+    margin-bottom: 1rem;
+    color: #555;
+  }
+  
+  /* Prep time section */
+  .prep-time {
+    background-color: #fff3e0;
+    padding: 1rem;
+    border-radius: 10px;
+  }
+  
+  .prep-time ul {
+    list-style: disc inside;
+    padding-left: 0.5rem;
+    margin-top: 0.5rem;
+  }
+  
+  /* Lists */
+  .list {
+    padding-left: 1rem;
+    margin-top: 0.5rem;
+  }
+  
+  .list li {
+    margin-bottom: 0.5rem;
+  }
+  
+  /* Nutrition table */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 0.5rem;
+  }
+  
+  table td {
+    padding: 0.5rem 0;
+    border-bottom: 1px solid #eee;
+  }
+  
+  table td:first-child {
+    color: #555;
+  }
+  
+  /* Responsive adjustments */
+  @media (min-width: 768px) {
+    .container {
+      padding: 2.5rem;
+    }
+  
+    h1 {
+      font-size: 1.5rem;
+    }
+  
+    h2 {
+      font-size: 1rem;
+    }
+  
+    .description {
+      font-size: 1rem;
+    }
+  }
+  
